@@ -2,6 +2,29 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  font-weight: 100;
+}
+
+#landing-links > a {
+  color: #999;
+  text-decoration: none;
+  margin-right: 5px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#landing-links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* border: 1px solid #ddd; */
+  padding: 7.5px 25px 7.5px 20px;
+  border-radius: 0 15px 0 0;
+  box-shadow: 10px -10px 250px rgba(0, 0, 0, .05),
+            5px -5px 10px rgba(0, 0, 0, .05);
+}
+
 #landing-div {
   box-shadow: -10px 10px 250px rgba(0, 0, 0, .05),
               -5px 5px 10px rgba(0, 0, 0, .05);
@@ -26,6 +49,7 @@ body {
   font-size: 12px;
   margin-top: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #landing-invite {
@@ -35,6 +59,7 @@ body {
   display: block;
   font-size: 14px;
 }
+
 
 @media only screen and (max-width: 750px) {
   #landing-div {
